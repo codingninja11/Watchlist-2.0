@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ResultCard from "./ResultCard";
 
 const AddMovie = () => {
   const [query, setQuery] = useState("");
@@ -33,12 +34,12 @@ const AddMovie = () => {
               onChange={onChange}
             />
           </div>
+
           {results.length > 0 && (
             <ul className="results">
               {results.map((movie) => (
                 <li key={movie.id}>
-                  {/* <ResultCard movie={movie} /> */}
-                  {movie.title}
+                  <ResultCard movie={movie} />
                 </li>
               ))}
             </ul>
