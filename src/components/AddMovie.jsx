@@ -35,7 +35,7 @@ const AddMovie = () => {
             />
           </div>
 
-          {results.length > 0 && (
+          {
             <ul className="results">
               {results.map((movie) => (
                 <li key={movie.id}>
@@ -43,9 +43,7 @@ const AddMovie = () => {
                 </li>
               ))}
             </ul>
-          )}
-
-          
+          }
         </div>
       </div>
     </div>
