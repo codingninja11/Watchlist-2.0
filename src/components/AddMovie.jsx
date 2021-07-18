@@ -44,6 +44,8 @@ const AddMovie = () => {
               ))}
             </ul>
           )}
+
+          
         </div>
       </div>
     </div>
