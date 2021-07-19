@@ -289,3 +289,8 @@ header .nav-links li:last-child {
   font-size: 3rem;
   text-align: center;
 }
+
+.footer {
+  position: relative;
+  margin-top: 100px;
+}
