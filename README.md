@@ -1,6 +1,3 @@
-JF1 Opal Homes, 3 134, Opel Homes Road, Samooga Nalakoodam, Perumbakkam, Chennai, Tamil Nadu - 600100
-
-
 
 
 # Getting Started with Create React App
